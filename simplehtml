@@ -1,0 +1,43 @@
+<!doctype html>
+<head>
+<title> REAL Connections Home Page</title>
+<style>
+#main-menu .nav-bar { list-style:none;}
+#main-menu .nav-bar li { display:inline; padding: 0 10px; }
+
+#main-menu .nav-bar li a {
+padding-left: 25px; 
+/*padding-bottom: 50px; */
+text-decoration: none;
+text-transform: uppercase;
+color: #333;
+text-shadow: 1px 1px 1px #ccc;
+}
+
+
+#main-menu .nav-bar a:hover {
+    color: #80D62F;
+    background-color: #FFF;
+} 
+
+
+
+</style>
+</head> 
+<body>
+<nav id="main-menu">
+     <ul class="nav-bar">
+     		<li class="nav-image"><img src="logo.png" alt="Smiley face" height="70" width="160"> </img></li>
+     		<li class="nav-button-home"><a href="/">Home </a></li>
+          <li class="nav-button-about"><a href="/">About </a></li>
+          <li class="nav-button-volunteer"><a href="#">Volunteer</a></li>
+          <li class="nav-button-membership"><a href="#">Membership</a></li>
+          <li class="nav-button-gallery"><a href="#">Gallery</a></li>
+          <li class="nav-button-events"><a href="#">Events</a></li>
+          <li class="nav-button-join"><a href="#">Join</a></li>
+          <li class="nav-button-donate"><a href="#">Donate</a></li>
+     </ul>
+</nav>
+
+</body>
+</html> 
